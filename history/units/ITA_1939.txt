@@ -1,8 +1,12 @@
 #Create units
 division_template = {
-	name = "Example Division"
-	division_names_group = "ITA_DIV_0_1"
+	name = "Infantry Division"
 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
 }
 
 #Spawn units

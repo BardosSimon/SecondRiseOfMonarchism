@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_event_british_troops"
+		texturefile = "report_event_british_inspect_troops.dds"
+	}
+}

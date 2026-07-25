@@ -1,0 +1,8 @@
+opinion_modifiers = {
+	imperial_trade_agreement = {
+		value = 25
+	}
+	hostile_relations = {
+		value = -50
+	}
+}

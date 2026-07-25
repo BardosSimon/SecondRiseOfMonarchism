@@ -1,28 +1,33 @@
 ideas = {
-	mobilization_laws = {
-	}
-	economy = {
-	}
-	political_advisor = {
-	}
-	tank_manufacturer = {
-	}
-	naval_manufacturer = {
-	}
-	aircraft_manufacturer = {
-	}
-	materiel_manufacturer = {
-	}
-	industrial_concern = {
-	}
-	theorist = {
-	}
-	army_chief = {
-	}
-	navy_chief = {
-	}
-	air_chief = {
-	}
-	high_command = {
+	country = {
+		eng_imperial_integration = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1
+			}
+		}
+		localized_training_centers = {
+			picture = generic_manpower_bonus
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				conscription = 0.01
+				experience_gain_army = 0.05
+			}
+		}
+		naval_investments = {
+			picture = generic_navy_bonus
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				industrial_capacity_dockyard_efficiency = 0.1
+			}
+		}
 	}
 }

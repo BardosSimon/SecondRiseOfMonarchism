@@ -1,0 +1,234 @@
+add_namespace = britain_mod_events
+country_event = {
+	id = britain_mod_events.1
+	title = britain_mod_events.1.t
+	desc = britain_mod_events.1.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.1.a
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = britain_mod_events.2
+	title = britain_mod_events.2.t
+	desc = britain_mod_events.2.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.2.a
+		ai_chance = {
+			base = 80
+		}
+		RAJ = {
+			set_autonomy = {
+				target = ENG
+				autonomy_state = autonomy_puppet
+			}
+		}
+		add_opinion_modifier = {
+			target = ENG
+			modifier = imperial_trade_agreement
+		}
+		ENG = {
+			add_stability = 0.05
+			add_political_power = 50
+		}
+	}
+	option = {
+		name = britain_mod_events.2.b
+		ai_chance = {
+			base = 80
+		}
+		country_event = {
+			id = britain_mod_events.3
+			days = 1
+		}
+		ENG = {
+			country_event = {
+				id = britain_mod_events.3
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = britain_mod_events.3
+	title = britain_mod_events.3.t
+	desc = britain_mod_events.3.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.3.a
+		create_wargoal = {
+			type = annex_everything
+			target = RAJ
+		}
+		add_war_support = 0.1
+	}
+	option = {
+		name = britain_mod_events.3.b
+		add_stability = -0.05
+		add_political_power = -25
+	}
+}
+
+country_event = {
+	id = britain_mod_events.4
+	title = britain_mod_events.4.t
+	desc = britain_mod_events.4.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.4.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = britain_mod_events.5
+	title = britain_mod_events.5.t
+	desc = britain_mod_events.5.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.5.a
+		add_stability = 0.1
+		add_war_support = 0.1
+	}
+}
+
+country_event = {
+	id = britain_mod_events.6
+	title = britain_mod_events.6.t
+	desc = britain_mod_events.6.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.6.a
+		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = britain_mod_events.7
+	title = britain_mod_events.7.t
+	desc = britain_mod_events.7.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.7.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = britain_mod_events.8
+	title = britain_mod_events.8.t
+	desc = britain_mod_events.8.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.8.a
+	}
+	option = {
+		name = britain_mod_events.8.b
+		country_event = {
+			id = britain_mod_events.9
+			days = 1
+		}
+	}
+}
+
+country_event = {
+	id = britain_mod_events.9
+	title = britain_mod_events.9.t
+	desc = britain_mod_events.9.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.9.a
+		create_wargoal = {
+			type = take_state
+			target = GER
+			generator = {
+				55
+			}
+		}
+	}
+	option = {
+		name = britain_mod_events.9.b
+		add_political_power = -25
+	}
+}
+
+country_event = {
+	id = britain_mod_events.10
+	title = britain_mod_events.10.t
+	desc = britain_mod_events.10.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.10.a
+		add_war_support = 0.1
+	}
+}
+
+country_event = {
+	id = britain_mod_events.11
+	title = britain_mod_events.11.t
+	desc = britain_mod_events.11.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.11.a
+	}
+}
+
+country_event = {
+	id = britain_mod_events.12
+	title = britain_mod_events.12.t
+	desc = britain_mod_events.12.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.12.a
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = britain_mod_events.13
+	title = britain_mod_events.13.t
+	desc = britain_mod_events.13.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.13.a
+	}
+}
+
+country_event = {
+	id = britain_mod_events.14
+	title = britain_mod_events.14.t
+	desc = britain_mod_events.14.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.14.a
+	}
+}
+
+country_event = {
+	id = britain_mod_events.15
+	title = britain_mod_events.15.t
+	desc = britain_mod_events.15.d
+	picture = GFX_report_event_british_troops
+	is_triggered_only = yes
+	option = {
+		name = britain_mod_events.15.a
+	}
+}
