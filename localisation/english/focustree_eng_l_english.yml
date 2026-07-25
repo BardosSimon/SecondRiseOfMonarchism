@@ -1,5 +1,7 @@
 ﻿l_english:
- # --- POLITICAL & MONARCHY BRANCH ---
+
+ POLITICS_EDWARD_VIII_DESC:0 "King Edward VIII rules the Empire directly, asserting the royal authority of the British Sovereign across all corners of the world."
+
  ENG_the_fractured_crown:0 "The Fractured Crown"
  ENG_the_fractured_crown_desc:0 "The Empire stands at a perilous crossroad. Internal strife and global instability threaten the unity of the British realm. We must chart a new political path forward before chaos grips our nation."
 

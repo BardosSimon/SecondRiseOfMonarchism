@@ -22,9 +22,9 @@ country_event = {
 		ai_chance = {
 			base = 80
 		}
-		RAJ = {
+		ENG = {
 			set_autonomy = {
-				target = ENG
+				target = RAJ
 				autonomy_state = autonomy_puppet
 			}
 		}

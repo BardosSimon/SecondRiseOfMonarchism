@@ -1,0 +1,26 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			ENG = {
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+				}
+				set_popularities = {
+					neutrality = 78
+					democratic = 15
+					fascism = 5
+					communism = 2
+				}
+				create_country_leader = {
+					name = "King Edward VIII"
+					desc = "POLITICS_EDWARD_VIII_DESC"
+					picture = "GFX_portrait_eng_edward_viii"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = { imperial_sanction staunch_monarchist }
+				}
+			}
+		}
+	}
+}
