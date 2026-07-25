@@ -10,7 +10,7 @@ set_convoys = 0
 
 # Politics for 1936.1.1
 set_politics = {
-	ruling_party = communism
+	ruling_party = 
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -33,6 +33,7 @@ add_ideas = {
 
 1939.1.1 = {
 	oob = "ITA_1939"
+	starting_train_buffer = 0
 	set_research_slots = 3
 	set_stability = 0.5
 	set_war_support = 0.5

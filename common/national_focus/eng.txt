@@ -1,9 +1,6 @@
 focus_tree = {
 	id = eng
-	continuous_focus_position = {
-		x = -40
-		y = 1050
-	}
+	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -11,465 +8,487 @@ focus_tree = {
 			tag = ENG
 		}
 	}
-	#Lessons of the Great War
+	#Rearm the Nation
 	focus = {
-		id = ENG_lessons_of_the_great_war
+		id = ENG_rearm_the_nation
 		icon = GFX_goal_unknown
-		x = 3
-		y = 0
-		cost = 5
+		x = 5
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_imperial_oil_reserves  focus = ENG_shadow_factory_scheme  }
+	}
+
+	#Restore the Royal Dockyards
+	focus = {
+		id = ENG_restore_the_royal_dockyards
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_imperial_oil_reserves  } prerequisite = { focus = ENG_submarine_research  }
+	}
+
+	#Expand Portsmouth
+	focus = {
+		id = ENG_expand_portsmouth
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_submarine_research  }
+	}
+
+	#Modern Naval Industry
+	focus = {
+		id = ENG_modern_naval_industry
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_restore_the_royal_dockyards  focus = ENG_expand_portsmouth  }
+	}
+
+	#Strengthen the Royal Claim
+	focus = {
+		id = ENG_strengthen_the_royal_claim
+		icon = GFX_goal_unknown
+		x = 22
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ENG_rediscover_hanoverian_heritage  }
+	}
+
+	#Demand Recognition of Hanover
+	focus = {
+		id = ENG_demand_recognition_of_hanover
+		icon = GFX_goal_unknown
+		x = 22
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ENG_strengthen_the_royal_claim  }
+	}
+
+	#Hannoverian Ultimatum
+	focus = {
+		id = ENG_hannoverian_ultimatum
+		icon = GFX_goal_unknown
+		x = 22
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = ENG_demand_recognition_of_hanover  }
+	}
+
+	#Rediscover Hanoverian Heritage
+	focus = {
+		id = ENG_rediscover_hanoverian_heritage
+		icon = GFX_goal_unknown
+		x = 22
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = ENG_reevaluating_europe  }
+	}
+
+	#Fortress Britannia
+	focus = {
+		id = ENG_fortress_britannia
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_pass_the_decolonization_acts  focus = ENG_abandon_the_suez_strategy  }
+	}
+
+	#Little England Strategy
+	focus = {
+		id = ENG_little_england_strategy
+		icon = GFX_goal_unknown
+		x = 16
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_abandon_the_suez_strategy  }
+	}
+
+	#A New European Focus
+	focus = {
+		id = ENG_a_new_european_focus
+		icon = GFX_goal_unknown
+		x = 16
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_little_england_strategy  }
+	}
+
+	#Abandon the Suez Strategy
+	focus = {
+		id = ENG_abandon_the_suez_strategy
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_dissolve_the_colonial_office  }
+	}
+
+	#Pass the Decolonization Acts
+	focus = {
+		id = ENG_pass_the_decolonization_acts
+		icon = GFX_goal_unknown
+		x = 19
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_dissolve_the_colonial_office  }
+	}
+
+	#Dissolve the Colonial Office
+	focus = {
+		id = ENG_dissolve_the_colonial_office
+		icon = GFX_goal_unknown
+		x = 18
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_leave_them_to_their_fate  }
+	}
+
+	#Imperial Federation
+	focus = {
+		id = ENG_imperial_federation
+		icon = GFX_goal_unknown
+		x = 12
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_towards_a_global_empire  }
+	}
+
+	#Towards a Global Empire
+	focus = {
+		id = ENG_towards_a_global_empire
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_empire_restored  }
+	}
+
+	#Indian Opression
+	focus = {
+		id = ENG_indian_opression
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_the_indian_jewel  }
+		mutually_exclusive = { focus = ENG_recrown_emperor  }
+	}
+
+	#Empire Restored
+	focus = {
+		id = ENG_empire_restored
+		icon = GFX_goal_unknown
+		x = 14
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_imperial_conferences  } prerequisite = { focus = ENG_recrown_emperor  focus = ENG_indian_opression  } prerequisite = { focus = ENG_imperial_conferences  }
+	}
+
+	#The Indian Jewel
+	focus = {
+		id = ENG_the_indian_jewel
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_restore_imperial_authority  }
+	}
+
+	#Re-Crown Emperor
+	focus = {
+		id = ENG_recrown_emperor
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_the_indian_jewel  }
+	}
+
+	#Dominions First
+	focus = {
+		id = ENG_dominions_first
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_restore_imperial_authority  }
+	}
+
+	#A-Bomb
+	focus = {
+		id = ENG_abomb
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-			add_tech_bonus = {
-				name = land_equipment_bonus
-				bonus = 0.5
-				uses = 1
-				category = infantry_weapons
-			}
-		}
+		prerequisite = { focus = ENG_royal_research_grants  } prerequisite = { focus = ENG_rearm_the_nation  }
 	}
-	#Rebuild the Home Fleet
-	focus = {
-		id = ENG_rebuild_the_home_fleet
-		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 1
-		y = 1
-		prerequisite = {
-			focus = ENG_lessons_of_the_great_war
-		}
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRYFOCUS_FILTER_NAVAL
-		}
-		completion_reward = {
-			133 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = capital_ships_bonus
-				bonus = 1
-				uses = 1
-				category = naval_equipment
-			}
-		}
-	}
-	#Industrial Heartlands
-	focus = {
-		id = ENG_industrial_heartlands
-		icon = GFX_goal_unknown
-		x = 5
-		y = 1
-		prerequisite = {
-			focus = ENG_lessons_of_the_great_war
-		}
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		completion_reward = {
-			130 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			128 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	#Shadow Factory Scheme
-	focus = {
-		id = ENG_shadow_factory_scheme
-		icon = GFX_goal_unknown
-		x = 5
-		y = 2
-		prerequisite = {
-			focus = ENG_industrial_heartlands
-		}
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ENG
-				}
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ENG
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	#Mobilize Coal & Steel
-	focus = {
-		id = ENG_mobilizecoalsteel
-		icon = GFX_goal_unknown
-		x = 5
-		y = 3
-		prerequisite = {
-			focus = ENG_shadow_factory_scheme
-		}
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		completion_reward = {
-			125 = {
-				add_resource = {
-					type = steel
-					amount = 12
-				}
-			}
-			133 = {
-				add_resource = {
-					type = aluminium
-					amount = 8
-				}
-			}
-		}
-	}
+
 	#The Fractured Crown
 	focus = {
 		id = ENG_the_fractured_crown
 		icon = GFX_goal_unknown
 		x = 15
 		y = 0
-		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		completion_reward = {
-			add_war_support = 0.1
-			add_state_claim = 274
-			add_state_claim = 517
-			add_state_claim = 437
-			add_state_claim = 541
-			add_state_claim = 422
-		}
 	}
-	#Subjugate the Dominions
+
+	#Restore Imperial Authority
 	focus = {
-		id = ENG_subjugate_the_dominions
+		id = ENG_restore_imperial_authority
 		icon = GFX_goal_unknown
 		x = 13
-		y = 2
-		cost = 10
+		y = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = {
-			focus = ENG_colonial_police
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = CAN
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = AST
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = SAF
-			}
-		}
+		prerequisite = { focus = ENG_the_fractured_crown  }
 	}
-	#Reclaim the Jewels
+
+	#Leave Them to Their Fate
 	focus = {
-		id = ENG_reclaim_the_jewels
-		icon = GFX_goal_unknown
-		x = 18
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = {
-			focus = ENG_colonial_police
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = RAJ
-			}
-		}
-	}
-	#Force the Atlantic Pact
-	focus = {
-		id = ENG_force_the_atlantic_pact
-		icon = GFX_goal_unknown
-		x = 13
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = {
-			focus = ENG_subjugate_the_dominions
-		}
-		completion_reward = {
-			add_ideas = ENG_imperial_dominance
-		}
-	}
-	#Empire Restored
-	focus = {
-		id = ENG_empire_restored
+		id = ENG_leave_them_to_their_fate
 		icon = GFX_goal_unknown
 		x = 17
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = {
-			focus = ENG_force_the_atlantic_pact
-			focus = ENG_reclaim_the_jewels
-		}
-		prerequisite = {
-			focus = ENG_recrown_the_emperor_of_india
-		}
-		completion_reward = {
-			add_war_support = 0.15
-			add_timed_idea = {
-				idea = ENG_restored_empire_buff
-				days = 730
-			}
-		}
-	}
-	# Re-Evaluating the European Order
-	focus = {
-		id = ENG_reevaluating_the_european_order
-		icon = GFX_goal_unknown
-		x = 20
-		y = 0
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {
-			add_threat = 0.05			# Fixed from add_world_tension
-			add_political_power = 120
-		}
-	}
-	#The Royal House of Hanover
-	focus = {
-		id = ENG_the_royal_house_of_hanover
-		icon = GFX_goal_unknown
-		x = 20
 		y = 1
-		prerequisite = {
-			focus = ENG_reevaluating_the_european_order
-		}
-		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		completion_reward = {
-			add_stability = 0.05
-			add_state_claim = 59
-		}
+		prerequisite = { focus = ENG_the_fractured_crown  }
+		mutually_exclusive = { focus = ENG_restore_imperial_authority  }
 	}
-	#Secure the North Sea
+
+	#Shadow Factory Scheme
 	focus = {
-		id = ENG_secure_the_north_sea
+		id = ENG_shadow_factory_scheme
 		icon = GFX_goal_unknown
-		x = 20
-		y = 2
-		prerequisite = {
-			focus = ENG_the_royal_house_of_hanover
-		}
+		x = 3
+		y = 3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		completion_reward = {
-			120 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 3
-					instant_build = yes
-				}
-			}
-			133 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
+		prerequisite = { focus = ENG_expand_birmingham_steelworks  focus = ENG_national_railway_modernisation  }
 	}
-	# Denounce German Hegemony
+
+	#Royal Research Grants
 	focus = {
-		id = ENG_denounce_german_hegemony
+		id = ENG_royal_research_grants
 		icon = GFX_goal_unknown
-		x = 20
+		x = 3
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ENG_shadow_factory_scheme  }
+	}
+
+	#Imperial Oil Reserves
+	focus = {
+		id = ENG_imperial_oil_reserves
+		icon = GFX_goal_unknown
+		x = 7
 		y = 3
-		prerequisite = {
-			focus = ENG_secure_the_north_sea
-		}
 		cost = 10
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
-		completion_reward = {
-			add_threat = 0.1			# Fixed from add_world_tension
-			GER = {
-				add_opinion_modifier = {
-					target = ENG
-					modifier = hostile_relations					# Ensure this exists in common/opinion_modifiers
-				}
-			}
-		}
+		prerequisite = { focus = ENG_national_railway_modernisation  focus = ENG_mobilizecoalsteel  }
 	}
-	# The Hannoverian Ultimatum
+
+	#Britannia rules the waves
 	focus = {
-		id = ENG_the_hannoverian_ultimatum
+		id = ENG_britannia_rules_the_waves
 		icon = GFX_goal_unknown
-		x = 20
-		y = 4
-		prerequisite = {
-			focus = ENG_denounce_german_hegemony
-		}
-		available = {
-			OR = {
-				date > 1939.9.1
-				has_completed_focus = ENG_empire_restored
-			}
-		}
+		x = 9
+		y = 0
 		cost = 10
 		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-			FOCUS_FILTER_POLITICAL
-		}
-		completion_reward = {
-			add_threat = 0.15			# Fixed from add_world_tension
-			create_wargoal = {
-				type = annex_everything
-				target = GER
-			}
-			GER = {
-				country_event = {
-					id = britain_mod_events.1
-				}
-			}
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
-	#Beaten but not Defeated
+
+	#Royal Navy
 	focus = {
-		id = ENG_beaten_but_not_defeated
+		id = ENG_royal_navy
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_britannia_rules_the_waves  }
+	}
+
+	#Fleet Modernisation
+	focus = {
+		id = ENG_fleet_modernisation
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_royal_navy  }
+	}
+
+	#Submarine Research
+	focus = {
+		id = ENG_submarine_research
 		icon = GFX_goal_unknown
 		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_fleet_modernisation  }
+	}
+
+	#Industrial Heartlands
+	focus = {
+		id = ENG_industrial_heartlands
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_lessons_of_the_great_war  }
+	}
+
+	#Expand Birmingham Steelworks
+	focus = {
+		id = ENG_expand_birmingham_steelworks
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_industrial_heartlands  }
+	}
+
+	#National Railway Modernisation
+	focus = {
+		id = ENG_national_railway_modernisation
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_industrial_heartlands  }
+	}
+
+	#Mobilize Coal & Steel
+	focus = {
+		id = ENG_mobilizecoalsteel
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ENG_lessons_of_the_great_war  }
+	}
+
+	#Lessons of the Great War
+	focus = {
+		id = ENG_lessons_of_the_great_war
+		icon = GFX_goal_unknown
+		x = 5
 		y = 0
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		mutually_exclusive = {
-			focus = ENG_the_fractured_crown
-		}
-		select_effect = {
-			add_political_power = 100
-			add_stability = 0.15
-		}
-		completion_reward = {
-			add_political_power = 50
-		}
 	}
-	#Colonial Police
+
+	#Imperial Conferences
 	focus = {
-		id = ENG_colonial_police
+		id = ENG_imperial_conferences
 		icon = GFX_goal_unknown
-		x = 15
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = {
-			focus = ENG_the_fractured_crown
-		}
-		completion_reward = {
-			add_ideas = ENG_colonial_police_force
-		}
-	}
-	#Re-Crown the Emperor of India
-	focus = {
-		id = ENG_recrown_the_emperor_of_india
-		icon = GFX_goal_unknown
-		x = 16
-		y = 2
-		cost = 10
+		x = 11
+		y = 4
+		cost = 15
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = {
-			focus = ENG_colonial_police
-		}
-		mutually_exclusive = {
-			focus = ENG_reclaim_the_jewels
-		}
-		completion_reward = {
-			RAJ = {
-				country_event = {
-					id = srom_uk_events.1
-				}
-			}
-		}
+		prerequisite = { focus = ENG_dominions_first  }
 	}
-	# Towards a Global Empire
+
+	#Re-Evaluating Europe
 	focus = {
-		id = ENG_towards_a_global_empire
+		id = ENG_reevaluating_europe
 		icon = GFX_goal_unknown
-		x = 17
-		y = 5
-		cost = 10
+		x = 22
+		y = 0
 		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = {
-			focus = ENG_empire_restored
-		}
-		completion_reward = {
-			add_ideas = ENG_imperial_integration_scheme			# Fixed missing add_ideas wrapper
+			FOCUS_FILTER_POLITICAL
 		}
 	}
+
 }
