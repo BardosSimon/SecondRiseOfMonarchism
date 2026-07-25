@@ -8,6 +8,21 @@ set_war_support = 0.5
 add_command_power = 0
 set_convoys = 0
 
+#Make the puppets independent and leave the Allies
+end_puppet = CAN
+end_puppet = RAJ
+end_puppet = AST
+end_puppet = NZL
+end_puppet = SAF
+end_puppet = MAL
+
+CAN = { leave_faction = yes }
+RAJ = { leave_faction = yes }
+AST = { leave_faction = yes }
+NZL = { leave_faction = yes }
+SAF = { leave_faction = yes }
+MAL = { leave_faction = yes }
+
 # Politics for 1936.1.1
 set_politics = {
 	ruling_party = neutrality
