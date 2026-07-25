@@ -11,7 +11,7 @@ state = {
 			11598 1
 		}
 
-		owner = GER
+		owner = ITA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

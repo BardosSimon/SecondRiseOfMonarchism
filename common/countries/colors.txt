@@ -1220,3 +1220,7 @@ ENG = {
 	color = rgb { 133 30 31 }
 	color_ui = rgb { 133 30 31 }
 }
+ITA = {
+	color = rgb { 45 123 37 }
+	color_ui = rgb { 45 123 37 }
+}
