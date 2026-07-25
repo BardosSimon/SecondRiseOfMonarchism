@@ -1,97 +1,159 @@
-﻿l_english: 
-ENG_rearm_the_nation:0 "Rearm the Nation"
-ENG_rearm_the_nation_desc:0 "a"
-ENG_restore_the_royal_dockyards:0 "Restore the Royal Dockyards"
-ENG_restore_the_royal_dockyards_desc:0 "a"
-ENG_expand_portsmouth:0 "Expand Portsmouth"
-ENG_expand_portsmouth_desc:0 "a"
-ENG_modern_naval_industry:0 "Modern Naval Industry"
-ENG_modern_naval_industry_desc:0 "a"
-ENG_strengthen_the_royal_claim:0 "Strengthen the Royal Claim"
-ENG_strengthen_the_royal_claim_desc:0 "a"
-ENG_demand_recognition_of_hanover:0 "Demand Recognition of Hanover"
-ENG_demand_recognition_of_hanover_desc:0 "a"
-ENG_hannoverian_ultimatum:0 "Hannoverian Ultimatum"
-ENG_hannoverian_ultimatum_desc:0 "a"
-ENG_rediscover_hanoverian_heritage:0 "Rediscover Hanoverian Heritage"
-ENG_rediscover_hanoverian_heritage_desc:0 "a"
-ENG_fortress_britannia:0 "Fortress Britannia"
-ENG_fortress_britannia_desc:0 "a"
-ENG_little_england_strategy:0 "Little England Strategy"
-ENG_little_england_strategy_desc:0 "a"
-ENG_a_new_european_focus:0 "A New European Focus"
-ENG_a_new_european_focus_desc:0 "a"
-ENG_abandon_the_suez_strategy:0 "Abandon the Suez Strategy"
-ENG_abandon_the_suez_strategy_desc:0 "a"
-ENG_pass_the_decolonization_acts:0 "Pass the Decolonization Acts"
-ENG_pass_the_decolonization_acts_desc:0 "a"
-ENG_dissolve_the_colonial_office:0 "Dissolve the Colonial Office"
-ENG_dissolve_the_colonial_office_desc:0 "a"
-ENG_imperial_federation:0 "Imperial Federation"
-ENG_imperial_federation_desc:0 "a"
-ENG_towards_a_global_empire:0 "Towards a Global Empire"
-ENG_towards_a_global_empire_desc:0 "a"
-ENG_indian_opression:0 "Indian Opression"
-ENG_indian_opression_desc:0 "a"
-ENG_empire_restored:0 "Empire Restored"
-ENG_empire_restored_desc:0 "a"
-ENG_the_indian_jewel:0 "The Indian Jewel"
-ENG_the_indian_jewel_desc:0 "a"
-ENG_recrown_emperor:0 "Re-Crown Emperor"
-ENG_recrown_emperor_desc:0 "a"
-ENG_dominions_first:0 "Dominions First"
-ENG_dominions_first_desc:0 "a"
-ENG_abomb:0 "A-Bomb"
-ENG_abomb_desc:0 "a"
-ENG_the_fractured_crown:0 "The Fractured Crown"
-ENG_the_fractured_crown_desc:0 "a"
-ENG_restore_imperial_authority:0 "Restore Imperial Authority"
-ENG_restore_imperial_authority_desc:0 "a"
-ENG_leave_them_to_their_fate:0 "Leave Them to Their Fate"
-ENG_leave_them_to_their_fate_desc:0 "a"
-ENG_shadow_factory_scheme:0 "Shadow Factory Scheme"
-ENG_shadow_factory_scheme_desc:0 "a"
-ENG_royal_research_grants:0 "Royal Research Grants"
-ENG_royal_research_grants_desc:0 "a"
-ENG_imperial_oil_reserves:0 "Imperial Oil Reserves"
-ENG_imperial_oil_reserves_desc:0 "a"
-ENG_britannia_rules_the_waves:0 "Britannia rules the waves"
-ENG_britannia_rules_the_waves_desc:0 "a"
-ENG_royal_navy:0 "Royal Navy"
-ENG_royal_navy_desc:0 "a"
-ENG_fleet_modernisation:0 "Fleet Modernisation"
-ENG_fleet_modernisation_desc:0 "a"
-ENG_submarine_research:0 "Submarine Research"
-ENG_submarine_research_desc:0 "a"
-ENG_industrial_heartlands:0 "Industrial Heartlands"
-ENG_industrial_heartlands_desc:0 "a"
-ENG_expand_birmingham_steelworks:0 "Expand Birmingham Steelworks"
-ENG_expand_birmingham_steelworks_desc:0 "a"
-ENG_national_railway_modernisation:0 "National Railway Modernisation"
-ENG_national_railway_modernisation_desc:0 "a"
-ENG_mobilizecoalsteel:0 "Mobilize Coal & Steel"
-ENG_mobilizecoalsteel_desc:0 "a"
-ENG_lessons_of_the_great_war:0 "Lessons of the Great War"
-ENG_lessons_of_the_great_war_desc:0 "The horrific slaughter of 1914–1918 proved that outdated tactics have no place in modern industrial warfare. By analyzing the breakdown of offensive maneuver, the supremacy of artillery, and the rise of armored force, our High Command can forge a modern military doctrine that prevents the costly mistakes of the past."
-ENG_imperial_conferences:0 "Imperial Conferences"
-ENG_imperial_conferences_desc:0 "a"
-ENG_reevaluating_europe:0 "Re-Evaluating Europe"
-ENG_reevaluating_europe_desc:0 "a"
-ENG_restore_imperial_authority:0 "Restore Imperial Authority"
-ENG_restore_imperial_authority_desc:0 "We must bring our former holdings back into the imperial fold."
-ENG_dominions_first:0 "Dominions First"
-ENG_dominions_first_desc:0 "Prioritize securing our ties with Canada, Australia, and New Zealand."
-ENG_the_indian_jewel:0 "The Indian Jewel"
-ENG_the_indian_jewel_desc:0 "India remains the cornerstone of our empire."
-ENG_recrown_emperor:0 "Re-Crown the Emperor"
-ENG_recrown_emperor_desc:0 "Invite the Raj to accept full imperial allegiance once more."
-ENG_indian_opression:0 "Indian Oppression"
-ENG_indian_opression_desc:0 "If diplomacy fails, India will be subjugated by force."
-ENG_imperial_conferences:0 "Imperial Conferences"
-ENG_imperial_conferences_desc:0 "Summon representative leadership to negotiate terms."
-ENG_leave_them_to_their_fate:0 "Leave Them to Their Fate"
-ENG_leave_them_to_their_fate_desc:0 "Abandon claims over former dominions and focus home."
-ENG_dissolve_the_colonial_office:0 "Dissolve the Colonial Office"
-ENG_dissolve_the_colonial_office_desc:0 "Disassemble obsolete imperial bureaucracy."
-ENG_abandon_the_suez_strategy:0 "Abandon Suez Strategy"
-ENG_abandon_the_suez_strategy_desc:0 "Withdraw overseas commitments around Suez."
+﻿l_english:
+ # --- POLITICAL & MONARCHY BRANCH ---
+ ENG_the_fractured_crown:0 "The Fractured Crown"
+ ENG_the_fractured_crown_desc:0 "The Empire stands at a perilous crossroad. Internal strife and global instability threaten the unity of the British realm. We must chart a new political path forward before chaos grips our nation."
+
+ ENG_empower_the_king:0 "Empower the King"
+ ENG_empower_the_king_desc:0 "To weather the coming storms, the Monarchy must assert a decisive presence over British politics. By expanding the King's influence, we bring stability and national focus to our realm."
+
+ ENG_restore_imperial_authority:0 "Restore Imperial Authority"
+ ENG_restore_imperial_authority_desc:0 "We must bring our former holdings back into the imperial fold and re-assert London's rightful place at the head of global affairs."
+
+ ENG_dominions_first:0 "Dominions First"
+ ENG_dominions_first_desc:0 "Prioritize securing our ties with Canada, Australia, South Africa, and New Zealand to establish a unified trade network."
+
+ ENG_the_indian_jewel:0 "The Indian Jewel"
+ ENG_the_indian_jewel_desc:0 "India remains the undisputed cornerstone of our global empire. Securing its loyalty—or enforcing its obedience—is critical."
+
+ ENG_recrown_emperor:0 "Re-Crown the Emperor"
+ ENG_recrown_emperor_desc:0 "Invite the leaders of the Indian subcontinent to accept full imperial allegiance and crown the British Sovereign as Emperor of India once more."
+
+ ENG_indian_opression:0 "Indian Oppression"
+ ENG_indian_opression_desc:0 "If diplomacy fails, India will be subjugated by direct military intervention. The crown jewel will not be surrendered."
+
+ ENG_imperial_conferences:0 "Imperial Conferences"
+ ENG_imperial_conferences_desc:0 "Summon representative leadership from across the Commonwealth to negotiate unified economic and military cooperation."
+
+ ENG_empire_restored:0 "Empire Restored"
+ ENG_empire_restored_desc:0 "Through diplomacy and decisive political strength, the British Empire has been reconstituted as an unrivaled superpower."
+
+ ENG_towards_a_global_empire:0 "Towards a Global Empire"
+ ENG_towards_a_global_empire_desc:0 "Our dominion spans every hemisphere. It is time to centralize our scientific and administrative networks into a seamless global system."
+
+ ENG_imperial_federation:0 "Imperial Federation"
+ ENG_imperial_federation_desc:0 "Unite Britain and her constituent Dominions into a single, indivisible pan-global super-state with equal rights and shared destiny."
+
+ ENG_leave_them_to_their_fate:0 "Leave Them to Their Fate"
+ ENG_leave_them_to_their_fate_desc:0 "Abandon imperial ambitions over former dominions and direct all national energy and economic capital towards the Home Islands."
+
+ ENG_dissolve_the_colonial_office:0 "Dissolve the Colonial Office"
+ ENG_dissolve_the_colonial_office_desc:0 "Disassemble the bloated colonial bureaucracy, shifting state funds directly into domestic infrastructure and regional training centers."
+
+ ENG_abandon_the_suez_strategy:0 "Abandon Suez Strategy"
+ ENG_abandon_the_suez_strategy_desc:0 "Withdraw costly Mediterranean and overseas military commitments, returning vital shipping convoys and naval escorts back to home waters."
+
+ ENG_pass_the_decolonization_acts:0 "Pass the Decolonization Acts"
+ ENG_pass_the_decolonization_acts_desc:0 "Formally surrender British rule across overseas territories, releasing subjects to forge their own sovereign paths."
+
+ ENG_little_england_strategy:0 "Little England Strategy"
+ ENG_little_england_strategy_desc:0 "Concentrate all industrial output and factory development strictly inside core British territory, forging an self-reliant island economy."
+
+ ENG_fortress_britannia:0 "Fortress Britannia"
+ ENG_fortress_britannia_desc:0 "Line the southern shores with anti-air batteries and heavy coastal bunkers. Britain shall stand as an impenetrable bastion against foreign aggression."
+
+ ENG_a_new_european_focus:0 "A New European Focus"
+ ENG_a_new_european_focus_desc:0 "Unburdened by empire, Britain can focus its diplomatic weight and scientific innovation entirely on the geopolitical balance of continental Europe."
+
+ ENG_reevaluating_europe:0 "Re-Evaluating Europe"
+ ENG_reevaluating_europe_desc:0 "The rise of aggressive ideologies on the continent demands a complete overhaul of British foreign policy toward continental powers."
+
+ ENG_continental_guarantees:0 "Continental Guarantees"
+ ENG_continental_guarantees_desc:0 "Extend firm British protection to France and the Low Countries, creating a united front against continental expansionists."
+
+ ENG_secure_low_countries_access:0 "Secure Low Countries Access"
+ ENG_secure_low_countries_access_desc:0 "Through formal trade and defense agreements, establish strong military and economic links with Belgium and the Netherlands to prepare a staging ground into Northern Germany."
+
+ ENG_rediscover_hanoverian_heritage:0 "Rediscover Hanoverian Heritage"
+ ENG_rediscover_hanoverian_heritage_desc:0 "Highlight our historical personal union with the Kingdom of Hanover, laying the ideological foundation to re-assert British presence in Northern Germany."
+
+ ENG_strengthen_the_royal_claim:0 "Strengthen the Royal Claim"
+ ENG_strengthen_the_royal_claim_desc:0 "Formally register the Sovereign's legal title over Hanoverian lands, stirring nationalist sentiment and preparing the public for diplomatic pressure."
+
+ ENG_claim_heligoland:0 "Assert Rights over Northern Marches"
+ ENG_claim_heligoland_desc:0 "Extend the British Crown's territorial ambitions to encompass Schleswig-Holstein and coastal ports, cutting off Germany's naval access to the North Sea."
+
+ ENG_demand_recognition_of_hanover:0 "Demand Recognition of Hanover"
+ ENG_demand_recognition_of_hanover_desc:0 "Send an ultimatum to Berlin demanding full diplomatic acknowledgment of British rights over the territory of Hanover."
+
+ ENG_hannoverian_ultimatum:0 "Hannoverian Ultimatum"
+ ENG_hannoverian_ultimatum_desc:0 "Prepare the military for offensive action. If the German government refuses to yield Hanover, force of arms will settle the claim."
+
+ ENG_reestablish_kingdom_of_hanover:0 "Re-Establish the Kingdom of Hanover"
+ ENG_reestablish_kingdom_of_hanover_desc:0 "Restore the historic Kingdom of Hanover as an autonomous realm under the Personal Union of the British Crown, creating a loyal German buffer state."
+
+ ENG_direct_crown_integration:0 "Direct Crown Integration"
+ ENG_direct_crown_integration_desc:0 "Incorporate the Hanoverian and Westphalian territories directly as core possessions of the British Crown, treating them as integral British soil."
+
+ ENG_dismantle_prussia:0 "Dismantle Prussia"
+ ENG_dismantle_prussia_desc:0 "Break the militaristic core of the German Reich once and for all, fragmenting its territory and establishing permanent British dominance over Central Europe."
+
+ ENG_lessons_of_the_great_war:0 "Lessons of the Great War"
+ ENG_lessons_of_the_great_war_desc:0 "The horrific slaughter of 1914–1918 proved that outdated tactics have no place in modern industrial warfare. By analyzing the breakdown of offensive maneuver, the supremacy of artillery, and the rise of armored force, our High Command can forge a modern military doctrine that prevents the costly mistakes of the past."
+
+ ENG_form_the_sas:0 "Special Air Service"
+ ENG_form_the_sas_desc:0 "Establish elite covert units capable of operating behind enemy lines to conduct sabotage, intelligence gathering, and hit-and-run strikes."
+
+ ENG_commandos_program:0 "Combined Operations & Commandos"
+ ENG_commandos_program_desc:0 "Develop modern amphibious warfare doctrine and landing crafts to spearhead raids on hostile coastlines."
+
+ special_forces_bonus:0 "Special Forces Research Bonus"
+
+ ENG_industrial_heartlands:0 "Industrial Heartlands"
+ ENG_industrial_heartlands_desc:0 "Expand manufacturing facilities and industrial complexes across the midlands and northern industrial centers."
+
+ ENG_expand_birmingham_steelworks:0 "Expand Birmingham Steelworks"
+ ENG_expand_birmingham_steelworks_desc:0 "Invest heavily into the steel foundries of Warwickshire to feed our growing defense production."
+
+ ENG_national_railway_modernisation:0 "National Railway Modernisation"
+ ENG_national_railway_modernisation_desc:0 "Upgrade strategic rail lines and supply depots around London and major ports to streamline military logistics."
+
+ ENG_mobilizecoalsteel:0 "Mobilize Coal & Steel"
+ ENG_mobilizecoalsteel_desc:0 "Introduce advanced extraction techniques to maximize resource yield from domestic coal mines and iron deposits."
+
+ ENG_imperial_oil_reserves:0 "Imperial Oil Reserves"
+ ENG_imperial_oil_reserves_desc:0 "Construct massive fuel silos across the nation and secure strategic oil stockpiles to ensure our fleet and mechanized army never run dry."
+
+ ENG_shadow_factory_scheme:0 "Shadow Factory Scheme"
+ ENG_shadow_factory_scheme_desc:0 "Subsidize civilian automakers and manufacturing plants so they can quickly convert to wartime military hardware production."
+
+ ENG_rearm_the_nation:0 "Rearm the Nation"
+ ENG_rearm_the_nation_desc:0 "Ramp up military production, delivering fresh rifles, uniforms, and equipment to equip our rapidly growing armed forces."
+
+ ENG_royal_research_grants:0 "Royal Research Grants"
+ ENG_royal_research_grants_desc:0 "Provide state funding to universities and private laboratories, opening up a new research slot for technological breakthroughs."
+
+ ENG_abomb:0 "Tube Alloys Project"
+ ENG_abomb_desc:0 "Concentrate our brightest atomic physicists into a classified weapons program to unlock the devastating power of nuclear fission."
+
+ ENG_expand_the_raf:0 "Expand the RAF"
+ ENG_expand_the_raf_desc:0 "Modernize the Royal Air Force doctrine, expanding flight training centers and air combat tactics."
+
+ ENG_radar_stations:0 "Chain Home Radar Network"
+ ENG_radar_stations_desc:0 "Construct an advanced coastal radar network along the southern coast to track incoming aircraft formations from miles away."
+
+ ENG_fighter_command:0 "Fighter Command & Spitfire Project"
+ ENG_fighter_command_desc:0 "Fund high-speed monoplane fighter designs like the Spitfire and Hurricane to guarantee air supremacy over the Channel."
+
+ ENG_strategic_bombers:0 "Strategic Bomber Modernisation"
+ ENG_strategic_bombers_desc:0 "Develop heavy four-engine bombers capable of raining devastation on enemy industry deep inside foreign territory."
+
+ ENG_britannia_rules_the_waves:0 "Britannia Rules the Waves"
+ ENG_britannia_rules_the_waves_desc:0 "Reaffirm our century-old tradition of naval supremacy, training sea commanders and modernizing fleet tactical doctrine."
+
+ ENG_royal_navy:0 "Royal Navy Focus"
+ ENG_royal_navy_desc:0 "Channel naval experience into innovative combat doctrines for surface fleets, carriers, and escort groups."
+
+ ENG_fleet_modernisation:0 "Fleet Modernisation"
+ ENG_fleet_modernisation_desc:0 "Replace aging World War I era warships with modern heavy cruisers, fast battleships, and fleet carriers."
+
+ ENG_submarine_research:0 "Submarine Research"
+ ENG_submarine_research_desc:0 "Develop quieter submarine hulls and improved torpedo systems to enforce commerce raiding or interdict hostiles."
+
+ ENG_restore_the_royal_dockyards:0 "Restore the Royal Dockyards"
+ ENG_restore_the_royal_dockyards_desc:0 "Expand and refit slipways in key coastal states to build capital ships faster."
+
+ ENG_expand_portsmouth:0 "Expand Portsmouth"
+ ENG_expand_portsmouth_desc:0 "Turn Portsmouth into the world's most formidable naval base, equipped with state-of-the-art repair facilities and docks."
+
+ ENG_modern_naval_industry:0 "Modern Naval Industry"
+ ENG_modern_naval_industry_desc:0 "Standardize naval manufacturing, reducing production costs and ensuring the Royal Navy remains unrivaled globally."
